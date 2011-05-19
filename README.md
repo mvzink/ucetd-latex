@@ -21,6 +21,6 @@ the current maintainer of this package
 Get Started
 ===========
 
-# Get your LaTeX environment set up.
-# Download `thesis_template.tex` and `ucetd.cls`.
-# Open `thesis_template.tex`, look around, and start writing!
+1. Get your LaTeX environment set up.
+2. Download `thesis_template.tex` and `ucetd.cls`.
+3. Open `thesis_template.tex`, look around, and start writing!
