@@ -2,7 +2,7 @@ UCETD LaTeX Class & Template
 ============================
 
 This repository includes a soon-to-be-official LaTeX class and template for
-correctly formatted electronic Ph.D. dissertations.
+correctly formatted electronic Ph.D. dissertations at the University of Chicago.
 
 The [official format specification][spec] can be tough to meet from scratch.
 That's why we are providing this class and template. The class, when properly
