@@ -278,8 +278,6 @@
                                 {-1em}%
                                 {\normalfont\normalsize\itshape}}
 
-% Change style of printing chapters in TOC to match chapter headings.
-
 \renewcommand*\l@part[2]{%
   \ifnum \c@tocdepth >\m@ne
     \addpenalty{-\@highpenalty}%
@@ -291,7 +289,7 @@
       \leavevmode
       \advance\leftskip\@tempdima
       \hskip -\leftskip
-      \etdChapterHeadFormat{#1}\nobreak
+      {\bf \etdChapterHeadFormat{#1}}\nobreak
       \hfil \nobreak\hb@xt@\@pnumwidth{\hss}\par
       \penalty\@highpenalty
     \endgroup
