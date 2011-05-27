@@ -280,6 +280,24 @@
 
 % Change style of printing chapters in TOC to match chapter headings.
 
+\renewcommand*\l@part[2]{%
+  \ifnum \c@tocdepth >\m@ne
+    \addpenalty{-\@highpenalty}%
+    \vskip 1.0em \@plus\p@
+    \setlength\@tempdima{1.5em}%
+    \begingroup
+      \parindent \z@ \rightskip \@pnumwidth
+      \parfillskip -\@pnumwidth
+      \leavevmode
+      \advance\leftskip\@tempdima
+      \hskip -\leftskip
+      \etdChapterHeadFormat{#1}\nobreak
+      \hfil \nobreak\hb@xt@\@pnumwidth{\hss}\par
+      \penalty\@highpenalty
+    \endgroup
+  \fi}
+
+
 \renewcommand*\l@chapter[2]{%
   \ifnum \c@tocdepth >\m@ne
     \addpenalty{-\@highpenalty}%
