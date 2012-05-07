@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}[1995/06/01]
-\ProvidesClass{ucetd}[2011/05/18 University of Chicago Electronic Theses and Dissertations]
+\ProvidesClass{ucetd}[2012/05/06 University of Chicago Electronic Theses and Dissertations]
 
 %%%%%%%%%%%%%%%%%%%%%%%%% Helper commands %%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -357,7 +357,7 @@
 
 % Main text box is the width/height of the paper minus 2in
 \setlength{\textwidth}{6.5in}
-\setlength{\textheight}{9.0in}
+\setlength{\textheight}{8.75in} % + footskip (0.25) = 9.00in
 
 % Only the left and top margins can be defined
 % 1in is added to given values
@@ -370,6 +370,9 @@
 \setlength{\headsep}{0.0in}
 
 % The bottom margin is also affected by the footskip
+% i.e. the length of the page has the following markers:
+% top of text at 1.00in, bottom of text at 9.75in,
+% page number at 10.00in, bottom of page at 11.00in
 \setlength{\footskip}{0.25in}
 
 % Making sure absolutely nothing passes the right margin
