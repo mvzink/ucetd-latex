@@ -11,7 +11,7 @@ used as in the template, will make sure your dissertation meets the spec.
 As I no longer work at the university, I don't have time to support or maintain
 this package.
 
-[spec]: http://www.lib.uchicago.edu/e/phd/etdformat.html "University-Wide Requirements for the Ph.D. Dissertation  Format"
+[spec]: http://www.lib.uchicago.edu/e/phd/pdf/booklet2011.pdf "University-Wide Requirements for the Ph.D. Dissertation"
 
 Get Started
 ===========

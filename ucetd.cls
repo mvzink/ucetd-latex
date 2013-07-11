@@ -192,6 +192,7 @@
 \newcommand{\mainmatter}{\etdMainMatter}
 
 % Bibliography
+% Change ft2,master,refs below to point to your library.bib files
 \newcommand{\makebibliography}{
 	\newpage
 	\addcontentsline{toc}{chapter}{References}
