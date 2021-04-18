@@ -57,6 +57,7 @@
 
 % UC ETD title page format
 \newcommand{\etdTitlePage} {
+	\hypersetup{pageanchor=false}
 	\begin{titlepage}
 		\begin{center}
 			\rule{0in}{0.55in} % Artificial extra [old=0.95in] margin. Why not vspace?
@@ -79,6 +80,7 @@
 			\vspace*{0.45in}
 		\end{center}
 	\end{titlepage}
+	\hypersetup{pageanchor=true}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
