@@ -197,8 +197,8 @@
 	\newpage
 	\addcontentsline{toc}{chapter}{References}
 	\begin{singlespace}
-		\bibliography{ft2,master,refs}
-		\bibliographystyle{plain}
+		\bibliography{references}
+		\bibliographystyle{plainnat}
 	\end{singlespace}
 }
 
@@ -242,14 +242,14 @@
         \normalfont\large\bfseries
         \begin{center}
         \etdChapterStyle{\@chapapp{ \thechapter}}  %  CHAPTER # or APPENDIX
-        
-        
+
+
         \etdChapterStyle{#1}                       %     TITLE OF CHAPTER
         \end{center}
         \setlength{\topmargin}{0in}   % back to 1in
 
 }}
-\renewcommand{\@makeschapterhead}[1]{{  
+\renewcommand{\@makeschapterhead}[1]{{
         \setlength{\topmargin}{0.5in}   % really 1.5in, added by bph
                                         % to meet OAP standards
         \normalfont\large\bfseries
@@ -319,8 +319,8 @@
   \fi}
 
 % Add "CHAPTER"/"APPENDIX" headings to TOC before first of each.
-% If you want these words to be a bit bigger, remove "\normalsize" 
-% from the definition below.  If you want the words to be bold, 
+% If you want these words to be a bit bigger, remove "\normalsize"
+% from the definition below.  If you want the words to be bold,
 % remove "\mdseries". (CCW)
 
 \iftocflag
@@ -331,7 +331,7 @@
   \fi%
   \old@chapter[{#1}]{#2}}
 \fi
- 
+
 % Change names of table of contents and bibliography
 
 \renewcommand{\contentsname}{Table of Contents}
@@ -411,7 +411,7 @@
     % This works b/c multiple \newpage's are treated as one
     \newpage
     \addcontentsline{toc}{chapter}{List of Tables}
-    \oldlistoftables 
+    \oldlistoftables
   \end{singlespace}
 }
 
@@ -422,6 +422,6 @@
     % This works b/c multiple \newpage's are treated as one
     \newpage
     \addcontentsline{toc}{chapter}{List of Figures}
-    \oldlistoffigures 
+    \oldlistoffigures
   \end{singlespace}
 }
