@@ -5,7 +5,6 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsthm}
-\usepackage[linktoc=all]{hyperref}
 
 %% Use these commands to set biographic information for the title page:
 \title{Thesis Title}
@@ -19,6 +18,13 @@
 \dedication{Dedication Text}
 \epigraph{Epigraph Text}
 
+\usepackage[pdfusetitle]{hyperref}
+\hypersetup{unicode=true,
+            linktoc=all,
+            pdfsubject=subject here,
+            pdfkeywords=keyword1 keyword2 keyword3,
+            pdfborder={0 0 0},
+            breaklinks=true}
 % See https://github.com/k4rtik/ucetd-latex/issues/1
 \makeatletter
 \let\ORG@hyper@linkstart\hyper@linkstart
