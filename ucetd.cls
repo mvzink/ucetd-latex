@@ -195,7 +195,8 @@
 
 % Bibliography
 \newcommand{\makebibliography}{
-	\newpage
+	\cleardoublepage
+	\phantomsection
 	\addcontentsline{toc}{chapter}{References}
 	\begin{singlespace}
 		% Add/change your bibliography file(s) here
@@ -410,8 +411,8 @@
 \let\oldlistoftables = \listoftables
 \renewcommand{\listoftables}{
   \begin{singlespace}
-    % This works b/c multiple \newpage's are treated as one
-    \newpage
+    \cleardoublepage
+    \phantomsection
     \addcontentsline{toc}{chapter}{List of Tables}
     \oldlistoftables
   \end{singlespace}
@@ -421,8 +422,8 @@
 \let\oldlistoffigures = \listoffigures
 \renewcommand{\listoffigures}{
   \begin{singlespace}
-    % This works b/c multiple \newpage's are treated as one
-    \newpage
+    \cleardoublepage
+    \phantomsection
     \addcontentsline{toc}{chapter}{List of Figures}
     \oldlistoffigures
   \end{singlespace}
