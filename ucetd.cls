@@ -192,11 +192,11 @@
 \newcommand{\mainmatter}{\etdMainMatter}
 
 % Bibliography
-% Change ft2,master,refs below to point to your library.bib files
 \newcommand{\makebibliography}{
 	\newpage
 	\addcontentsline{toc}{chapter}{References}
 	\begin{singlespace}
+		% Add/change your bibliography file(s) here
 		\bibliography{references}
 		\bibliographystyle{plainnat}
 	\end{singlespace}
