@@ -1,4 +1,5 @@
 [![Overleaf Template](https://img.shields.io/badge/Overleaf-Template-success?logo=overleaf)](https://www.overleaf.com/latex/templates/university-of-chicago-phd-dissertation-template/syvxgkqhvqqt)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/k4rtik/uchicago-dissertation)](https://github.com/k4rtik/uchicago-dissertation/releases)
 
 UChicago PhD Dissertation LaTeX Class & Template
 ================================================
