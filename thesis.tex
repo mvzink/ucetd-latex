@@ -7,12 +7,15 @@
 \usepackage{amsthm}
 
 %% Use these commands to set biographic information for the title page:
-\title{Thesis Title}
-\author{Thesis Author}
+\newcommand{\thesistitle}{Thesis Title}
+\newcommand{\thesisauthor}{Thesis Author}
 \department{Thesis Department}
 \division{Thesis Division}
 \degree{Type of Degree}
 \date{Graduation Date}
+
+\title{\thesistitle}
+\author{\thesisauthor}
 
 %% Use these commands to set a dedication and epigraph text
 \dedication{Dedication Text}
@@ -21,11 +24,12 @@
 \usepackage{doi}
 \usepackage{xurl}
 \hypersetup{bookmarksnumbered,
-            pdfusetitle,
             unicode,
             linktoc=all,
-            % pdfsubject=subject here,                  % Uncomment and revise subject/description
-            % pdfkeywords=keyword1 keyword2 keyword3,   % Uncomment and revise keywords
+            pdftitle={\thesistitle},
+            pdfauthor={\thesisauthor},
+            pdfsubject={},                                % Add subject/description
+            % pdfkeywords={keyword1, keyword2, keyword3}, % Uncomment and revise keywords
             pdfborder={0 0 0}}
 % See https://github.com/k4rtik/ucetd-latex/issues/1
 \makeatletter

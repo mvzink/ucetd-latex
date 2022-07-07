@@ -4,4 +4,4 @@ all:
 	latexmk -pdflatex="texfot pdflatex" -pdf thesis.tex
 
 clean:
-	latexmk -c
+	latexmk -C && rm *.bbl
