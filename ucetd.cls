@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}[1995/06/01]
-\ProvidesClass{ucetd}[2021/04/19 University of Chicago Electronic Theses and Dissertations]
+\ProvidesClass{ucetd}[2022/07/07 University of Chicago Electronic Theses and Dissertations v1.2.0]
 
 %%%%%%%%%%%%%%%%%%%%%%%%% Helper commands %%%%%%%%%%%%%%%%%%%%%%%%%
 
