@@ -64,14 +64,14 @@
 			THE UNIVERSITY OF CHICAGO\\
 			\vspace{0.8in}
 			\MakeUppercase{\@title}\\
-			\vspace{0.8in}
+			\vspace{1.0in}
 			A DISSERTATION SUBMITTED TO\\
 			THE FACULTY OF THE DIVISION OF THE \MakeUppercase{\@division}\\
 			IN CANDIDACY FOR THE DEGREE OF\\
 			\MakeUppercase{\@degree}\\
 			\ \\
 			DEPARTMENT OF \MakeUppercase{\@department}\\
-			\vspace{0.8in}
+			\vspace{1.0in}
 			BY\\
 			\MakeUppercase{\@author}\\
 			\vspace{0.8in}
