@@ -21,7 +21,7 @@
 % Default copyright text
 \newcommand{\etdCopyrightText}{
 	\null\vfill
-	\centerline{Copyright \copyright\ \number\year\ by \@author}
+	\centerline{Copyright \textcopyright\ \number\year\ by \@author}
 	\centerline{All Rights Reserved}
 	\vskip 15pt\relax
 }
