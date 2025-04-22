@@ -11,7 +11,7 @@ The [official format specification][spec] can be tough to meet from scratch.
 That's why we are providing this class and template. The class, when properly
 used as in the template, will make sure your dissertation meets the spec.
 
-[spec]: https://www.lib.uchicago.edu/documents/447/booklet2011.pdf "University-Wide Requirements for the Ph.D. Dissertation"
+[spec]: https://www.lib.uchicago.edu/research/scholar/phd/dissertation-requirements/format/ "University-Wide Requirements for the Ph.D. Dissertation > Format"
 
 Get Started
 ===========
@@ -19,6 +19,5 @@ Get Started
 1. Get your LaTeX environment set up.
 2. Download `thesis_template.tex` and `ucetd.cls`.
 3. Open `thesis_template.tex`, look around, and start writing!
-4. See [Best practices for paper writing](http://discuss.cs.uchicago.edu/writing) for some tips.
 
 Alternatively, the template is also available from [Overleaf](https://www.overleaf.com/latex/templates/university-of-chicago-phd-dissertation-template/syvxgkqhvqqt).
